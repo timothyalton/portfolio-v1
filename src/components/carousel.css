@@ -1,0 +1,54 @@
+.page {
+  padding: 3%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.project {
+  /* margin: 3%; */
+  margin-bottom: 50px;
+}
+
+/* CARASOUL CSS ADJUSTING */
+.carousel .carousel-item {
+  width: 600px !important;
+}
+
+.carousel {
+  height: 600px;
+}
+@media screen and (max-width: 906px) {
+  .carousel .carousel-item {
+    width: 200px !important;
+  }
+  .carousel {
+    height: 200px;
+  }
+}
+
+.summary {
+  border: 1px solid black;
+}
+.image {
+  height: 100vh;
+  float: left;
+}
+
+.image img {
+  max-width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.text {
+  overflow: hidden;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 906px) {
+  .image {
+    /* width: 0%; */
+    display: none;
+  }
+}
