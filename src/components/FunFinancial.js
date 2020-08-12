@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import M from "materialize-css";
-import { Box, Typography } from "@material-ui/core";
+import { Box, Typography, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import SwiperCore from "swiper";
@@ -22,18 +22,31 @@ const useStyles = makeStyles({
   projectInfo: {
     justifyContent: "center",
     textAlign: "center",
+    // border: "solid",
+    // borderColor: "#7395AE",
+    // borderWidth: "2px",
+    // marginLeft: "35%",
+    // marginRight: "35%",
+    // borderRadius: "5px",
   },
-  //   swiperContainer: {
-  //     width: "100%",
-  //     paddingTop: "50px",
-  //     paddingBottom: "50px",
-  //   },
-  //   swiperSlide: {
-  //     backgroundPosition: "center",
-  //     backgroundSize: "cover",
-  //     width: "300px",
-  //     height: "300px",
-  //   },
+  heading: {
+    color: "#7395AE",
+  },
+  subHeading: {
+    color: "#B1A296",
+    textTransform: "uppercase",
+  },
+  button: {
+    marginTop: "1rem",
+    color: "#7395AE",
+    borderColor: "#7395AE",
+    "&:hover": {
+      backgroundColor: "#7395AE",
+      color: "#373737",
+    },
+    marginRight: "10px",
+    marginBottom: "10px",
+  },
 });
 
 const FunFinancial = () => {
@@ -67,15 +80,30 @@ const FunFinancial = () => {
           </a>
         </Box>
         <Box className={classes.projectInfo}>
-          <Typography variant="h3">FUN FINANCIAL</Typography>
+          <Typography className={classes.heading} variant="h3">
+            FUN FINANCIAL
+          </Typography>
           <br />
-          <Typography variant="body1">
+          <Typography className={classes.subHeading} variant="body1">
             An application to teach your kids how to manage credit from a young
             age.
           </Typography>
-          <Typography variant="body1">
-            Ruby on Rails, PostgreSQL, JavaScript, ReactJS, Hooks, Semantic UI
+          <br />
+          <Typography className={classes.subHeading} variant="body1">
+            Ruby | Ruby on Rails | PostgreSQL | JavaScript | ReactJS | Hooks |
+            Semantic UI
           </Typography>
+          <Box>
+            <Button variant="outlined" className={classes.button}>
+              Demo
+            </Button>
+            <Button variant="outlined" className={classes.button}>
+              Front-End Code
+            </Button>
+            <Button variant="outlined" className={classes.button}>
+              Back-End Code
+            </Button>
+          </Box>
         </Box>
       </Box>
     </>
