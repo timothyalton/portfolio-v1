@@ -145,7 +145,7 @@ const Navbar = () => {
   return (
     <>
       <Box component="nav">
-        <AppBar position="sticky" style={{ background: "#373737" }}>
+        <AppBar position="fixed" style={{ background: "#373737" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
               <Menu style={{ color: "#557A95" }} />
