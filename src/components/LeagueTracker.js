@@ -65,7 +65,10 @@ const LeagueTracker = () => {
       <Box component="div" className="project">
         <Box component="div" className="carousel">
           <a className="carousel-item">
-            <img src={require("../images/funfinancial.gif")} />
+            <img
+              src={require("../images/funfinancial.gif")}
+              alt="League Tracker Preview GIF"
+            />
           </a>
           <a className="carousel-item">
             <img src={require("../images/funfinancial1.png")} />
@@ -92,7 +95,7 @@ const LeagueTracker = () => {
           <br />
           <Typography className={classes.subHeading} variant="body1">
             Ruby | Ruby on Rails | PostgreSQL | JavaScript | ReactJS | CSS |
-            Riot API
+            Riot API | YouTube API
           </Typography>
           <Box>
             <Button variant="outlined" className={classes.button}>

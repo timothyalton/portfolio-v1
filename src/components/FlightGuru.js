@@ -65,7 +65,10 @@ const FlightGuru = () => {
       <Box component="div" className="project">
         <Box component="div" className="carousel">
           <a className="carousel-item">
-            <img src="https://i.imgur.com/FNahyZJ.gif" />
+            <img
+              src="https://i.imgur.com/FNahyZJ.gif"
+              alt="Flight Guru Preview GIF"
+            />
           </a>
           <a className="carousel-item">
             <img src={require("../images/funfinancial1.png")} />
