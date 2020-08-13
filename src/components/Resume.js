@@ -134,79 +134,108 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              Job Title
+              Software Engineering
+            </Typography>
+            <Typography
+              variant="h6"
+              align="center"
+              className={classes.companyName}
+            >
+              Flatiron School
             </Typography>
             <Typography
               variant="body1"
               align="center"
               className={classes.companyName}
             >
-              Company
+              01/2020 - 05/2020
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               className={classes.jobDescription}
             >
-              Job Description
+              Built full-stack applications utilizing Ruby and JavaScript
+              frameworks, using Agile methodology. Check out my{" "}
+              <a href="/portfolio">projects</a> to see my progress from day 1 to
+              Software Engineer.
             </Typography>
           </Box>
-          <Typography
-            variant="h2"
-            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-          >
-            2019
-          </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
               variant="h5"
               align="center"
               className={classes.subHeading}
             >
-              Job Title
+              Engineering Designer
+            </Typography>
+            <Typography
+              variant="h6"
+              align="center"
+              className={classes.companyName}
+            >
+              Headworks International
             </Typography>
             <Typography
               variant="body1"
               align="center"
               className={classes.companyName}
             >
-              Company
+              11/2017 - 01/2020
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               className={classes.jobDescription}
             >
-              Job Description
+              Collected historical data as a temporary project to identify the
+              best efficient design & drafting practices to present a
+              consolidation plan using the data collected to generate
+              cost-saving proposals during RFQ's (Request for Quotations) with
+              suppliers.
+              <br />
+              <br />
+              Consistant collaboration with management and engineering to design
+              & develop Mechanical Wastewater Filters, Conveyor Systems, Moveing
+              Bed Biofilm Reactors (MBBR) aeration grid systems & Dissolved Air
+              Flotation Equipment.
             </Typography>
           </Box>
-          <Typography
-            variant="h2"
-            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-          >
-            2018
-          </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
               variant="h5"
               align="center"
               className={classes.subHeading}
             >
-              Job Title
+              Founder/CEO
+            </Typography>
+            <Typography
+              variant="h6"
+              align="center"
+              className={classes.companyName}
+            >
+              Geek Kloud
             </Typography>
             <Typography
               variant="body1"
               align="center"
               className={classes.companyName}
             >
-              Company
+              01/2018 - 12/2018
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               className={classes.jobDescription}
             >
-              Job Description
+              E-Commerce business. Deployed online sales strategies and the
+              various platforms used to conduct digital sales or conversions.
+              <br />
+              Analyzed data daily to use findings to promote products, as well
+              as to improve marketing effortsand strategies.
+              <br />
+              Managed site development and updates for the e-commerce website to
+              improve conversion rates and user experience.
             </Typography>
           </Box>
           <Typography
@@ -215,27 +244,38 @@ const Resume = () => {
           >
             2017
           </Typography>
+
           <Box component="div" className={classes.timeLineItem}>
             <Typography
               variant="h5"
               align="center"
               className={classes.subHeading}
             >
-              Job Title
+              Independent Contractor
+            </Typography>
+            <Typography
+              variant="h6"
+              align="center"
+              className={classes.companyName}
+            >
+              Big Tex (Coxco Energy Solutions)
             </Typography>
             <Typography
               variant="body1"
               align="center"
               className={classes.companyName}
             >
-              Company
+              12/2016 - 10/2017
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               className={classes.jobDescription}
             >
-              Job Description
+              Analyzed the specific customer requests & prepared a detailed
+              oriented energy efficient proposal. Managed multiple clients to
+              assure quality systems were installed and certified. Worked along
+              with inspection teams.
             </Typography>
           </Box>
           <Typography
@@ -250,21 +290,31 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              Job Title
+              Mechanical Drafting Project Manager
+            </Typography>
+            <Typography
+              variant="h6"
+              align="center"
+              className={classes.companyName}
+            >
+              Industrial Ventilation Systems
             </Typography>
             <Typography
               variant="body1"
               align="center"
               className={classes.companyName}
             >
-              Company
+              04/2015 - 02/2016
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               className={classes.jobDescription}
             >
-              Job Description
+              Managed customer order, package submittals & data analysis
+              requiring meticulous attention. Supervised administrative
+              processes to reduce errors, improve accuracy and efficiency, and
+              achieve organized objectives.
             </Typography>
           </Box>
           <Typography
@@ -273,29 +323,6 @@ const Resume = () => {
           >
             2015
           </Typography>
-          <Box component="div" className={classes.timeLineItem}>
-            <Typography
-              variant="h5"
-              align="center"
-              className={classes.subHeading}
-            >
-              Job Title
-            </Typography>
-            <Typography
-              variant="body1"
-              align="center"
-              className={classes.companyName}
-            >
-              Company
-            </Typography>
-            <Typography
-              variant="subtitle1"
-              align="center"
-              className={classes.jobDescription}
-            >
-              Job Description
-            </Typography>
-          </Box>
         </Box>
       </Box>
     </>
