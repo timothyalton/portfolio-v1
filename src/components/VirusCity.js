@@ -65,7 +65,10 @@ const VirusCity = () => {
       <Box component="div" className="project">
         <Box component="div" className="carousel">
           <a className="carousel-item">
-            <img src={require("../images/funfinancial.gif")} />
+            <img
+              src="https://i.imgur.com/apjOHQ6.gif"
+              alt="Virus City Preview GIF"
+            />
           </a>
           <a className="carousel-item">
             <img src={require("../images/funfinancial1.png")} />
