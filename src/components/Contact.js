@@ -1,9 +1,18 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
-import { TextField, Typography, Button, Grid, Box } from "@material-ui/core";
+import {
+  TextField,
+  Typography,
+  Button,
+  Grid,
+  Box,
+  TextareaAutosize,
+} from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
 import { Translate } from "@material-ui/icons";
+import MyForm from "./MyForm";
+import MaterialuiForm from "./MaterialuiForm";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -57,7 +66,11 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <Box component="div" className={classes.mainContainer}>
+      <div>
+        {/* <MyForm /> */}
+        <MaterialuiForm />
+      </div>
+      {/* <Box component="div" className={classes.mainContainer}>
         <Grid container justify="center">
           <Box component="form" className={classes.form}>
             <Typography className={classes.heading} variant="h5">
@@ -65,6 +78,7 @@ const Contact = () => {
             </Typography>
             <InputField
               style={{ borderBottom: "0px!important" }}
+              multiline={false}
               fullWidth={true}
               label="Name"
               variant="outlined"
@@ -75,6 +89,7 @@ const Contact = () => {
             <br />
 
             <InputField
+              multiline={false}
               fullWidth={true}
               label="Email"
               variant="outlined"
@@ -85,13 +100,17 @@ const Contact = () => {
             <br />
 
             <InputField
+              multiline={true}
+              rows="3"
+              rowsMax="20"
               fullWidth={true}
               label="Message"
               variant="outlined"
               inputProps={{ style: { color: "white" } }}
               margin="dense"
               size="medium"
-            />
+            ></InputField>
+
             <br />
             <Button
               className={classes.button}
@@ -103,7 +122,7 @@ const Contact = () => {
             </Button>
           </Box>
         </Grid>
-      </Box>
+      </Box> */}
     </>
   );
 };
