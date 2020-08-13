@@ -23,7 +23,24 @@ const useStyles = makeStyles({
   mainContainer: {
     background: "#3E3E3E",
     height: "100%",
-    backgroundSize: "cover",
+    marginBottom: "0",
+    justifyContent: "center",
+    textAlign: "center",
+  },
+  button: {
+    marginTop: "1rem",
+    color: "#7395AE",
+    borderColor: "#7395AE",
+    "&:hover": {
+      backgroundColor: "#7395AE",
+      color: "#373737",
+    },
+    marginRight: "10px",
+    marginBottom: "10px",
+  },
+  subHeading: {
+    color: "#B1A296",
+    textTransform: "uppercase",
   },
 });
 
@@ -52,6 +69,17 @@ const Portfolio = () => {
         <Box>
           <NeblarSabotage />
         </Box>
+        <Typography className={classes.subHeading} variant="body1">
+          Want to see the code to my portfolio site?
+        </Typography>
+        <Button
+          component="a"
+          href="https://github.com/timothyalton/portfolio-v1"
+          variant="outlined"
+          className={classes.button}
+        >
+          Code
+        </Button>
       </Box>
     </>
   );

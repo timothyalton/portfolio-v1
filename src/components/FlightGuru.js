@@ -71,16 +71,16 @@ const FlightGuru = () => {
             />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial1.png")} />
+            <img src={require("../images/flightguru1.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial2.png")} />
+            <img src={require("../images/flightguru2.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial3.png")} />
+            <img src={require("../images/flightguru3.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial4.png")} />
+            <img src={require("../images/flightguru4.png")} />
           </a>
         </Box>
         <Box className={classes.projectInfo}>
@@ -98,14 +98,21 @@ const FlightGuru = () => {
             Google Places API
           </Typography>
           <Box>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://www.youtube.com/watch?v=HRak-gZP3Q0&t=173s"
+              variant="outlined"
+              className={classes.button}
+            >
               Demo
             </Button>
-            <Button variant="outlined" className={classes.button}>
-              Front-End Code
-            </Button>
-            <Button variant="outlined" className={classes.button}>
-              Back-End Code
+            <Button
+              component="a"
+              href="https://github.com/timothyalton/flight-guru-app"
+              variant="outlined"
+              className={classes.button}
+            >
+              Code
             </Button>
           </Box>
         </Box>

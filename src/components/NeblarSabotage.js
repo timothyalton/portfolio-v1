@@ -65,19 +65,19 @@ const NeblarSabotage = () => {
       <Box component="div" className="project">
         <Box component="div" className="carousel">
           <a className="carousel-item">
-            <img src={require("../images/funfinancial.gif")} />
+            <img src={require("../images/neblarsabotage.gif")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial1.png")} />
+            <img src={require("../images/neblarsabotage1.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial2.png")} />
+            <img src={require("../images/neblarsabotage2.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial3.png")} />
+            <img src={require("../images/neblarsabotage3.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial4.png")} />
+            <img src={require("../images/neblarsabotage4.png")} />
           </a>
         </Box>
         <Box className={classes.projectInfo}>
@@ -94,14 +94,21 @@ const NeblarSabotage = () => {
             C++
           </Typography>
           <Box>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://www.youtube.com/watch?v=r4NU2K3ID0M&t=168s"
+              variant="outlined"
+              className={classes.button}
+            >
               Demo
             </Button>
-            <Button variant="outlined" className={classes.button}>
-              Front-End Code
-            </Button>
-            <Button variant="outlined" className={classes.button}>
-              Back-End Code
+            <Button
+              component="a"
+              href="https://github.com/timothyalton/NeblarSabotage"
+              variant="outlined"
+              className={classes.button}
+            >
+              Code
             </Button>
           </Box>
         </Box>
