@@ -80,6 +80,8 @@ const TypeWars = () => {
             <img src={require("../images/typewars4.png")} />
           </a>
         </Box>
+        <br />
+        <br />
         <Box className={classes.projectInfo}>
           <Typography className={classes.heading} variant="h3">
             TYPE WARS!
@@ -94,14 +96,21 @@ const TypeWars = () => {
             Ruby | AFPlay
           </Typography>
           <Box>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://www.youtube.com/watch?v=QRCCYkc8oMU&t=29s"
+              variant="outlined"
+              className={classes.button}
+            >
               Demo
             </Button>
-            <Button variant="outlined" className={classes.button}>
-              Front-End Code
-            </Button>
-            <Button variant="outlined" className={classes.button}>
-              Back-End Code
+            <Button
+              component="a"
+              href="https://github.com/timothyalton/Type-Wars-"
+              variant="outlined"
+              className={classes.button}
+            >
+              Code
             </Button>
           </Box>
         </Box>

@@ -65,22 +65,19 @@ const LeagueTracker = () => {
       <Box component="div" className="project">
         <Box component="div" className="carousel">
           <a className="carousel-item">
-            <img
-              src={require("../images/funfinancial.gif")}
-              alt="League Tracker Preview GIF"
-            />
+            <img src={require("../images/leaguetracker.gif")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial1.png")} />
+            <img src={require("../images/leaguetracker1.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial2.png")} />
+            <img src={require("../images/leaguetracker2.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial3.png")} />
+            <img src={require("../images/leaguetracker3.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial4.png")} />
+            <img src={require("../images/leaguetracker4.png")} />
           </a>
         </Box>
         <Box className={classes.projectInfo}>
@@ -98,13 +95,28 @@ const LeagueTracker = () => {
             Riot API | YouTube API
           </Typography>
           <Box>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://www.youtube.com/watch?v=1pCmolcUHWQ"
+              variant="outlined"
+              className={classes.button}
+            >
               Demo
             </Button>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://github.com/timothyalton/league_tracker/tree/master/frontend"
+              variant="outlined"
+              className={classes.button}
+            >
               Front-End Code
             </Button>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://github.com/timothyalton/league_tracker/tree/master/backend"
+              variant="outlined"
+              className={classes.button}
+            >
               Back-End Code
             </Button>
           </Box>

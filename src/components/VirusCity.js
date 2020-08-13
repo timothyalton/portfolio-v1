@@ -71,16 +71,16 @@ const VirusCity = () => {
             />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial1.png")} />
+            <img src={require("../images/viruscity1.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial2.png")} />
+            <img src={require("../images/viruscity2.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial3.png")} />
+            <img src={require("../images/viruscity3.png")} />
           </a>
           <a className="carousel-item">
-            <img src={require("../images/funfinancial4.png")} />
+            <img src={require("../images/viruscity4.png")} />
           </a>
         </Box>
         <Box className={classes.projectInfo}>
@@ -97,13 +97,28 @@ const VirusCity = () => {
             Ruby on Rails | SQLite3 | JavaScript | HTML/CSS
           </Typography>
           <Box>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://www.youtube.com/watch?v=MhRjIXeBixw"
+              variant="outlined"
+              className={classes.button}
+            >
               Demo
             </Button>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://github.com/timothyalton/virusCity/tree/master/frontend"
+              variant="outlined"
+              className={classes.button}
+            >
               Front-End Code
             </Button>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://github.com/timothyalton/virusCity/tree/master/backend"
+              variant="outlined"
+              className={classes.button}
+            >
               Back-End Code
             </Button>
           </Box>

@@ -94,13 +94,28 @@ const FunFinancial = () => {
             Semantic UI
           </Typography>
           <Box>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://www.youtube.com/watch?v=-E7yAPN--tk"
+              variant="outlined"
+              className={classes.button}
+            >
               Demo
             </Button>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://github.com/timothyalton/Fun-Financial-v2/tree/master/frontend"
+              variant="outlined"
+              className={classes.button}
+            >
               Front-End Code
             </Button>
-            <Button variant="outlined" className={classes.button}>
+            <Button
+              component="a"
+              href="https://github.com/timothyalton/Fun-Financial-v2/tree/master/backend"
+              variant="outlined"
+              className={classes.button}
+            >
               Back-End Code
             </Button>
           </Box>
