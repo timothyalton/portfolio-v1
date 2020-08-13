@@ -169,7 +169,10 @@ function MaterialuiForm() {
           contact me
         </Button>
         {serverState.status && (
-          <p className={!serverState.status.ok ? "errorMsg" : ""}>
+          <p
+            style={{ color: "#7395AE" }}
+            className={!serverState.status.ok ? "errorMsg" : ""}
+          >
             {serverState.status.msg}
           </p>
         )}
