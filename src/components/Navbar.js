@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import {
@@ -15,7 +15,6 @@ import {
   Box,
 } from "@material-ui/core";
 import {
-  ArrowBack,
   Menu,
   AssignmentInd,
   Home,
@@ -55,6 +54,11 @@ const useStyles = makeStyles((theme) => ({
   navtitle: {
     textAlign: "center",
     color: "#B1A296",
+  },
+  scrolled: {
+    position: "fixed",
+    top: "0",
+    left: "0",
   },
 }));
 
@@ -141,7 +145,7 @@ const Navbar = () => {
   return (
     <>
       <Box component="nav">
-        <AppBar position="static" style={{ background: "#373737" }}>
+        <AppBar position="sticky" style={{ background: "#373737" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
               <Menu style={{ color: "#557A95" }} />
