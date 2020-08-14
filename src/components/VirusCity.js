@@ -90,7 +90,7 @@ const VirusCity = () => {
           <br />
           <Typography className={classes.subHeading} variant="body1">
             A simulation application to show the rate of infection, with the
-            option to put certain quarintine parameters in place.
+            option to put certain quarantine parameters in place.
           </Typography>
           <br />
           <Typography className={classes.subHeading} variant="body1">
