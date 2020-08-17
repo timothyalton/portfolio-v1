@@ -78,6 +78,11 @@ const menuItems = [
     listText: "Resume",
     listPath: "/resume",
   },
+  // {
+  //   listIcon: <Book />,
+  //   listText: "Blog",
+  //   listPath: "https://www.simplemitch.com",
+  // },
   {
     listIcon: <Apps />,
     listText: "See My Work",
