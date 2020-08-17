@@ -95,7 +95,7 @@ function MaterialuiForm() {
   return (
     <div className={classes.form}>
       <Typography className={classes.heading} variant="h5">
-        Hire or Contact me
+        Get in touch!
       </Typography>
       {/* <form onSubmit={handleOnSubmit}>
         <label htmlFor="email">Email:</label>
