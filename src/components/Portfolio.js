@@ -72,6 +72,9 @@ const Portfolio = () => {
         <Typography className={classes.subHeading} variant="body1">
           Want to see the code to my portfolio site?
         </Typography>
+        <Typography className={classes.subHeading} variant="body1">
+          React.js | Hooks | JavaScript | Material-UI | AWS
+        </Typography>
         <Button
           component="a"
           href="https://github.com/timothyalton/portfolio-v1"
