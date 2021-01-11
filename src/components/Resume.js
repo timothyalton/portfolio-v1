@@ -122,6 +122,47 @@ const Resume = () => {
           My Background
         </Typography>
         <Box component="div" className={classes.timeLine}>
+        <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2021
+          </Typography>
+
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              align="center"
+              className={classes.subHeading}
+            >
+              Junior Software Engineer
+            </Typography>
+            <Typography
+              variant="h6"
+              align="center"
+              className={classes.companyName}
+            >
+              Brokerage Engine
+            </Typography>
+            <Typography
+              variant="body1"
+              align="center"
+              className={classes.companyName}
+            >
+              09/2020 - Current
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              className={classes.jobDescription}
+            >
+              Maintain a large code base for front-end (React.js/Redux), and for the back-end (Rails, PostgreSQL, GraphQL).
+              <br/>
+              <br/>
+              Communicate and work alongside a team every day to develop a quality application, debugging, and develop new features,
+              using Agile methodologies and using Git Flow for testing and implementation. 
+            </Typography>
+          </Box>
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
