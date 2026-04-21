@@ -3,17 +3,8 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import { makeStyles } from "@mui/styles";
 
-// CSS STYLES
-const useStyles = makeStyles({
-  particles: {
-    position: "absolute",
-    opacity: "0.3",
-  },
-});
 const Home = () => {
-  const classes = useStyles();
   const [init, setInit] = useState(false);
 
   useEffect(() => {
@@ -64,7 +55,12 @@ const Home = () => {
     <>
       <Navbar />
       <Header />
-      {init && <Particles className={classes.particles} options={options} />}
+      {init && (
+        <Particles
+          style={{ position: "absolute", opacity: 0.3 }}
+          options={options}
+        />
+      )}
     </>
   );
 };
